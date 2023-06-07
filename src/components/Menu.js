@@ -20,6 +20,7 @@ function Menu() {
                             <Link style={link} to='/home'>Home</Link>
                             <Link style={link} to='/dados-da-fome'>Dados da Fome</Link>
                             <Link style={link} to='/inseguranca_alimentar'>Insegurança Alimentar</Link>
+                            <Link style={link} to="/ods2">Ods2</Link>
                             <Link style={link} to='/nossa_solucao'>Nossa Solução</Link>
                         </li>
                     </ul>
