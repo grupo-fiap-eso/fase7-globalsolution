@@ -112,6 +112,11 @@ export const PostStyle = styled.div`
   .fase5{
     background-color: rgb(127, 0, 0);
   }
+
+  a.fale-conosco{
+    color: rgba(40,55,24,0.69);
+    text-decoration: none;
+  }
 `
 export const CardsStyle = styled.div`
 
