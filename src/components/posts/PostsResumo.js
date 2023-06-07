@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { PostStyle } from '../../styled'
 import { Post1Card } from "./Post1";
@@ -16,10 +17,10 @@ function PostsResumo(){
   return (
     <PostStyle>
 
-    <div class="row">
-      <div class="row terceira-secao">
+    <div class="row posts">
+      <div class="row secao-tres">
           <h2>Por que FoodCare ?</h2>
-          <p>
+          <p class="paragrafo-superior">
             Nossa empresa se preocupa com um dos fatores que mais causa transtornos mundiais, a fome. 
             Nos importamos uns com os outros ao ponto de nos impor sobre essa realidade visando suprir e combater
             esse mal que ainda assola nosso mundo.
