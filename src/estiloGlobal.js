@@ -142,9 +142,9 @@ const globalStyle = createGlobalStyle`
     width: 100%;
     bottom: 0;
     position: relative;
-    background: linear-gradient(to right, #1d5207, #091b01);
+    background-color: #283618;
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 20px 0;
     font-size: 13px;
     line-height: 20px;
   }
@@ -170,7 +170,7 @@ const globalStyle = createGlobalStyle`
 
   footer .col h4{
     width: fit-content;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     position: relative;
   }
 

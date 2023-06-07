@@ -38,7 +38,7 @@ function FaleConosco() {
           </div>
 
           <div className='input-container'>
-            <input type="submit" value="Enviar"/>
+            <input type="submit" value="Enviar" className='link'/>
           </div>
         </form>
       </div>

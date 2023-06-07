@@ -309,6 +309,22 @@ export const FaleConoscoStyle = styled.h1`
     border-radius: 20px;
   }
 
+  .link{
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em;
+    max-width: 100px;
+    background: #66552D;
+    color: #FEFAE0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
   .input-container{
     margin: 0px 0 15px 0;
     min-width: 90%;
@@ -333,10 +349,9 @@ export const FaleConoscoStyle = styled.h1`
   }
 
   input[type=submit]{
-    padding: 15px 30px;
+    padding: 15px 20px;
     font-size: 16px;
     border: 1px solid rgb(96, 108, 56);
-    background-color: rgb(96 108 56 / 13%);
     border-radius: 10px;
     float: right;
   }
@@ -347,7 +362,7 @@ export const FaleConoscoStyle = styled.h1`
     font-size: 40px;
   }
   .subtitulo{
-    max-width: 900px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
     font-size: 16px;
