@@ -1,0 +1,243 @@
+import styled from 'styled-components'
+
+export const DivEtiquetas = styled.div`
+  *{
+    background-color: #174105;
+    padding: 1px 20px; 
+    border-radius: 5px;
+    width: 100%;
+    float: center;
+  }
+  form{
+    width: 50%; padding: 1px; margin: 0 auto;
+  }
+  fieldset{
+    padding: 20px;
+  }
+  legend{
+    color: white;
+    font-size: 20px; text-align: center; padding: 0px; 
+  }
+  label{
+    color: white;
+    display: flex; flex-direction: column; margin-bottom: 10px
+  }
+  input{
+    background-color: white;
+    padding: 5px 20px; border-radius: 5px; border: 100px;
+  }
+  button{
+    background: white;
+    border-radius: 2px; width: 12%; 
+    margin: 0px 45%;
+    text-align: center;
+  }
+`
+
+export const PostStyle = styled.div`
+  
+div .terceira-secao{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+`
+export const CardsStyle = styled.div`
+
+.impactos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #66552D;
+  min-height: 200px;
+  padding: 20px 10px;
+}
+
+.impactos-text{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.impactos-text h2{
+  font-size: 3em;
+  color: #283618;
+}
+
+.impactos-text p{
+  max-width: 700px;
+  text-align: center;
+  color: #283618;
+  font-size: 1.1em;
+  line-height:1.5em;
+}
+
+.impactos .content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  margin: 30px 0;
+}
+
+.impactos .content .impactos-cards{
+  background: #57533D;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #57533D;
+
+}
+
+.impactos .content .impactos-cards:hover{
+  border: 2px solid #FEFAE0;
+
+}
+
+
+`
+
+export const LoginStyle = styled.div`
+  .login{
+    weight: 70px;
+    height: 320px;
+    width: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgba(35,196,83, 0.8);
+    justify-content: right;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+    margin-top: 50vh;
+    display: flex;
+    margin-left: 100vh;
+    border: solid 2px white;
+  }
+  .logo-scheneider{
+    position: relative;
+    width: 350px;
+    height: 180px;
+    padding-right: 80px;
+    padding-top: 110px;
+  }
+  .bottom{
+    backround: #21c650;
+    border-color: white;
+    border-width: 3px;
+    padding-bottom: 3px;
+  }
+  .videos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+`
+
+export const CadastroStyle = styled.div`
+  .geral{
+    background: rgba(35,196,83);
+    color: white;
+  }
+  .logo-scheneider{
+    width: 350px;
+    height: 80px;
+    float: right !important;
+  }
+`
+
+export const CalendarioStyle = styled.div`
+  .geral{
+    font-size: 5px;
+    display: inline-block;
+  }
+
+  .geral-semana{
+    font-size: 5px;
+    display: inline-block;
+    background-color: #8FBC8F;
+    color: white;
+  }
+`
+export const StyleSecao = styled.div`
+
+#home{
+  position: relative;
+      width: 100%;
+      minHeight: 100vh;
+      display: flex;
+      justifyContent: space-between;
+      alignItems: center;
+      padding: 100px;
+}
+
+#home::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 25vw;
+  background: #66552D;
+  border-top-right-radius: 25vw;
+  border-top-left-radius: 25vw;
+}
+
+#home .content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 650px;
+  z-index: 10;
+}
+
+#home .content h2{
+  position: relative;
+  font-size: 2em;
+  color: #283618;
+}
+
+#home .content p{
+  position: relative;
+  color: #000;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.link{
+  position: relative;
+  display: inline-block;
+  font-size: 1.2em;
+  max-width: 100px;
+  background: #66552D;
+  color: #FEFAE0;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 18px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.imagem{
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  max-height: 90vh;
+
+}
+
+`
