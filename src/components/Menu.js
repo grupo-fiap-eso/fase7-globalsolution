@@ -19,6 +19,7 @@ function Menu() {
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <Link style={link} to='/home'>Home</Link>
+                        <Link style={link} to="/ods2">Ods2</Link>
                     </li>
                 </ul>
             </div>
