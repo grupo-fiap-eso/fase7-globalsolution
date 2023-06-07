@@ -12,7 +12,7 @@ function App(){
         <Route path="/" element={[<Menu/>, <Home/>]}/>
         <Route path="/home" element={[<Menu/>, <Home/>]}/>
         <Route path="/fale-conosco" element={[<Menu/>, <FaleConosco/>]}/>
-        <Route path="/page2" element={[<Menu/>, <Pagina2/>]}/>
+        <Route path="/pagina2" element={[<Menu/>, <Pagina2/>]}/>
       </Routes>
     </BrowserRouter>
   )
