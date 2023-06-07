@@ -34,15 +34,84 @@ export const DivEtiquetas = styled.div`
   }
 `
 export const PostStyle = styled.div`
-  
-div .terceira-secao{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  div .terceira-secao{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left{
+    text-align: left;
+  }
+
+  .section-box-verde{
+    border: 1px solid rgb(40, 54, 24);
+    padding: 0;
+  }
+
+  *{
+    margin: 55px 0px 8px;
+    text-align: center;
+    .titulo{
+        margin: 50px auto 8px;
+        text-align: center;
+        max-width: 1300px;
+    }
+    .subtitulo{
+      margin: 0px auto 10px;
+      text-align: center;
+      max-width: 60%;
+    }
+    .img-container{
+      max-width: 900px;
+      margin: 40px auto;
+      img {
+        width: inherit;
+      }
+    }
+  }
+  .post-content{
+    text-align: justify !important;
+    max-width: 900px;
+    margin: 40px auto;
+    p, ol, li{
+      text-indent: 3em;
+      text-align: justify;
+      margin: 15px auto 0px;
+    }
+  }
+
+  .fase{
+    padding-left: 10px;
+    color: white;
+    margin-top: 0;
+    h2{
+      margin-top: 0;
+    }
+  }
+
+  .fase1{
+    background-color: rgb(255, 163, 114);
+  }
+
+  .fase2{
+    background-color: rgb(255, 108, 62);
+  }
+
+  .fase3{
+    background-color: rgb(255, 0, 0);
+  }
+
+  .fase4{
+    background-color: rgb(189, 0, 3);
+  }
+
+  .fase5{
+    background-color: rgb(127, 0, 0);
+  }
 `
 export const CardsStyle = styled.div`
 
