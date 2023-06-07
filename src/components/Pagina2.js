@@ -1,59 +1,11 @@
-import React from 'react';
-import styled from 'styled-components'
 import DadosFomeImg from '../images/Pagina2-Dados-Fome.jpeg'
 import PratoIcon from '../images/prato.svg'
 import ODMImage from '../images/ODM.png'
 import BrasilImg from '../images/brasil.png'
 import SectionColapsible from './SectionColapsible';
+import { Pagina2Style } from '../styled';
 
 const titulo = "Dados da Fome"
-
-const Pagina2Style = styled.h1`
-  *{
-    .titulo{
-      margin: 50px auto 8px;
-      text-align: center;
-      max-width: 1300px;
-    }
-
-    .img-container{
-      max-width: 900px;
-      margin: 0 auto;
-      img {
-        margin-top: 30px;
-        width: inherit;
-      }
-    }
-
-    .card {
-      margin: 15px 0 30px;
-    }
-  }
-
-  .post-content{
-    text-align: justify !important;
-    max-width: 900px;
-    margin: 40px auto;
-    font-size: 16px;
-  }
-
-  .section-colapsible-content{
-    img{
-      width: 150px;
-      float: left;
-    }
-    img.prato{
-      margin: 0 50px 50px 0px;
-    }
-    img.odm{
-      width: 100%;
-      margin: 0px 0px 25px 0px;
-    }
-    img.brasil{
-      margin: 0px 50px 200px 0px;
-    }
-  }
-`;
 
 function Pagina2() {
   return (
