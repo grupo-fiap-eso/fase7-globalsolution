@@ -33,85 +33,25 @@ export const DivEtiquetas = styled.div`
     text-align: center;
   }
 `
+
 export const PostStyle = styled.div`
-  div .terceira-secao{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+  
+.posts .secao-tres h2{
+  color: #283618;
+  padding-top: 18vh;
+  padding-bottom: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .left{
-    text-align: left;
-  }
+.posts .paragrafo-superior{
+  padding-left: 20vh;
+  padding-bottom: 8vh ;
 
-  .section-box-verde{
-    border: 1px solid rgb(40, 54, 24);
-    padding: 0;
-  }
-
-  *{
-    margin: 55px 0px 8px;
-    text-align: center;
-    .titulo{
-        margin: 50px auto 8px;
-        text-align: center;
-        max-width: 1300px;
-    }
-    .subtitulo{
-      margin: 0px auto 10px;
-      text-align: center;
-      max-width: 60%;
-    }
-    .img-container{
-      max-width: 900px;
-      margin: 40px auto;
-      img {
-        width: inherit;
-      }
-    }
-  }
-  .post-content{
-    text-align: justify !important;
-    max-width: 900px;
-    margin: 40px auto;
-    p, ol, li{
-      text-indent: 3em;
-      text-align: justify;
-      margin: 15px auto 0px;
-    }
-  }
-
-  .fase{
-    padding-left: 10px;
-    color: white;
-    margin-top: 0;
-    h2{
-      margin-top: 0;
-    }
-  }
-
-  .fase1{
-    background-color: rgb(255, 163, 114);
-  }
-
-  .fase2{
-    background-color: rgb(255, 108, 62);
-  }
-
-  .fase3{
-    background-color: rgb(255, 0, 0);
-  }
-
-  .fase4{
-    background-color: rgb(189, 0, 3);
-  }
-
-  .fase5{
-    background-color: rgb(127, 0, 0);
-  }
+}
 `
 export const CardsStyle = styled.div`
 
@@ -119,7 +59,7 @@ export const CardsStyle = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #66552D;
+  background: #d9ba73;
   min-height: 200px;
   padding: 20px 10px;
 }
@@ -133,7 +73,7 @@ export const CardsStyle = styled.div`
   flex-direction: column;
 }
 
-.impactos-text h2{
+.impactos-text h3{
   font-size: 3em;
   color: #283618;
 }
@@ -161,81 +101,17 @@ export const CardsStyle = styled.div`
   align-items: center;
   flex-direction: column;
   border: 2px solid #57533D;
-  max-width:490px;
-  overflow: hidden;
+
 }
 
 .impactos .content .impactos-cards:hover{
   border: 2px solid #FEFAE0;
 
 }
+
+
 `
 
-export const LoginStyle = styled.div`
-  .login{
-    weight: 70px;
-    height: 320px;
-    width: 600px;
-    position: relative;
-    text-align: center;
-    color: white;
-    background-color: rgba(35,196,83, 0.8);
-    justify-content: right;
-    padding-right: 20px;
-    padding-bottom: 7px;
-    margin-right: 20px;
-    margin-top: 50vh;
-    display: flex;
-    margin-left: 100vh;
-    border: solid 2px white;
-  }
-  .logo-scheneider{
-    position: relative;
-    width: 350px;
-    height: 180px;
-    padding-right: 80px;
-    padding-top: 110px;
-  }
-  .bottom{
-    backround: #21c650;
-    border-color: white;
-    border-width: 3px;
-    padding-bottom: 3px;
-  }
-  .videos{
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    width: 100%;
-  }
-`
-
-export const CadastroStyle = styled.div`
-  .geral{
-    background: rgba(35,196,83);
-    color: white;
-  }
-  .logo-scheneider{
-    width: 350px;
-    height: 80px;
-    float: right !important;
-  }
-`
-
-export const CalendarioStyle = styled.div`
-  .geral{
-    font-size: 5px;
-    display: inline-block;
-  }
-
-  .geral-semana{
-    font-size: 5px;
-    display: inline-block;
-    background-color: #8FBC8F;
-    color: white;
-  }
-`
 export const StyleSecao = styled.div`
 
 #home{
