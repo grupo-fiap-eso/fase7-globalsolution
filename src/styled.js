@@ -92,7 +92,8 @@ export const CardsStyle = styled.div`
   align-items: center;
   flex-direction: column;
   border: 2px solid #57533D;
-
+  max-width:490px;
+  overflow: hidden;
 }
 
 .impactos .content .impactos-cards:hover{
@@ -182,7 +183,7 @@ export const StyleSecao = styled.div`
   content: '';
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 50px;
   width: 50vw;
   height: 25vw;
   background: #66552D;
@@ -237,12 +238,14 @@ export const StyleSecao = styled.div`
 }
 `
 
-export const DadosDaFomeStyle = styled.h1`
+export const DadosDaFomeStyle = styled.div`
   *{
     .titulo{
       margin: 50px auto 8px;
       text-align: center;
       max-width: 1300px;
+      font-size: 40px;
+      width: 100%;
     }
 
     .img-container{
