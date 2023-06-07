@@ -2,15 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 const globalStyle = createGlobalStyle`
   *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Lora', serif;
   }
 
   body{
-    background-color: #3b8d1814;
+    background-color: #FEFAE0;
   }
+
+  .navbar{
+    background-color: #283618;
+
+  }
+
   nav{
     min-height: 65px;
     align-items: center;
@@ -18,17 +21,124 @@ const globalStyle = createGlobalStyle`
     font-size: 12px;
   }
 
-  .navbar{
-    background-color: #3b8d18 
+  .primeira-secao{
+    margin-top: 1%;
+    background-color: #3b8d184d;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .p-md-5{
+    padding: 3rem;
+  }
+
+  .rounded{
+    border-radius: 20px;
+  }
+
+  .p-4{
+    padding: 1.5rem;
+  }
+  .mb-4{
+    margin-bottom: 1.5rem;
+  }
+
+  .link1{
+    text-decoration: none;
+    color: #183909;
+    font-weight:400;
+  }
+
+  .segunda-secao{
+    margin-top: 100px;
+    box-sizing: border-box;
+  }
+
+  .terceira-secao{
+    margin-top: 90px;
+  }
+
+  button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .home-artigos{
+    padding: 0;
+    position: relative;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+  }
+
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .green {
+    border-left: 3px solid #3bb54a;
+  }
+
+  .home-sobre-nos{
+    margin-top: 8%;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  div .comunidade{
+    margin-top: 5%;
+    background-color: #dfecf84d;
+    border-radius: 20px;
+    padding-bottom: 60px;
+  }
+
+
+  div .comentarios{
+    width: 70%;
+    padding: 20px;
+    background-color: #fffffff9;
+    border: 2px solid #aaabab57;
+    margin-left: 16%;
+  }
+  .titulo-comunidade{
+    margin: 5%;
+    color: #2d2c2cef;
   }
 
   footer{
     width: 100%;
     bottom: 0;
     position: relative;
-    background: linear-gradient(to right, #1d5207, #091b01);
+    background-color: #283618;
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 20px 0;
     font-size: 13px;
     line-height: 20px;
   }
@@ -54,7 +164,7 @@ const globalStyle = createGlobalStyle`
 
   footer .col h4{
     width: fit-content;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     position: relative;
   }
 
