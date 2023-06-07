@@ -2,9 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 const globalStyle = createGlobalStyle`
   *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Lora', serif;
   }
 
@@ -26,7 +23,6 @@ const globalStyle = createGlobalStyle`
 
   .primeira-secao{
     margin-top: 1%;
-    margin-inline: 4em;
     background-color: #3b8d184d;
     box-sizing: border-box;
     display: block;
@@ -55,13 +51,11 @@ const globalStyle = createGlobalStyle`
 
   .segunda-secao{
     margin-top: 100px;
-    margin-inline: 3em;
     box-sizing: border-box;
   }
 
   .terceira-secao{
     margin-top: 90px;
-    margin-inline: 3em;
   }
 
   button {
@@ -80,6 +74,7 @@ const globalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: auto;
   }
 
   .card {
@@ -113,7 +108,6 @@ const globalStyle = createGlobalStyle`
 
   .home-sobre-nos{
     margin-top: 8%;
-    margin-inline: 4em;
     box-sizing: border-box;
     display: block;
   }
