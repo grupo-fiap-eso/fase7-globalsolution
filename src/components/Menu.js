@@ -18,7 +18,8 @@ function Menu() {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <Link style={link} to='/home'>Home</Link>
+                        <Link style={link} to='/inseguranca_alimentar'>Insegurança Alimentar</Link>
+                        <Link style={link} to='/nossa_solucao'>Nossa Solução</Link>
                     </li>
                 </ul>
             </div>
