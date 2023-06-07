@@ -4,7 +4,7 @@ import Menu from "./components/Menu"
 import PostPage from './components/PostPage'
 import Dados from './components/Dados'
 import Solucao from './components/Solucao'
-import Pagina2 from './components/Pagina2'
+import DadosDaFome from './components/DadosDaFome'
 import FaleConosco from './components/FaleConosco'
 
 function App(){
@@ -14,10 +14,10 @@ function App(){
         
         <Route path="/home" element={[<Menu/>, <Home/>]}/>
         <Route path="/posts/:id" element={[<Menu/>, <PostPage/>]}/>
+        <Route path="/dados-da-fome" element={[<Menu/>, <DadosDaFome/>]}/>
         <Route path="/inseguranca_alimentar" element={[<Menu/>, <Dados/>]}/>
         <Route path="/nossa_solucao" element={[<Menu/>, <Solucao/>]}/>
         <Route path="/fale-conosco" element={[<Menu/>, <FaleConosco/>]}/>
-        <Route path="/pagina2" element={[<Menu/>, <Pagina2/>]}/>
       </Routes>
     </BrowserRouter>
   )

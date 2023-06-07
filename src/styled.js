@@ -237,7 +237,7 @@ export const StyleSecao = styled.div`
 }
 `
 
-export const Pagina2Style = styled.h1`
+export const DadosDaFomeStyle = styled.h1`
   *{
     .titulo{
       margin: 50px auto 8px;
@@ -256,6 +256,9 @@ export const Pagina2Style = styled.h1`
 
     .card {
       margin: 15px 0 30px;
+      margin: 15px 0px 30px;
+      width: 100%;
+      padding: 15px;
     }
   }
 

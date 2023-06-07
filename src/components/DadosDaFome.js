@@ -3,13 +3,13 @@ import PratoIcon from '../images/prato.svg'
 import ODMImage from '../images/ODM.png'
 import BrasilImg from '../images/brasil.png'
 import SectionColapsible from './SectionColapsible';
-import { Pagina2Style } from '../styled';
+import { DadosDaFomeStyle } from '../styled';
 
 const titulo = "Dados da Fome"
 
-function Pagina2() {
+function DadosDaFome() {
   return (
-    <Pagina2Style>
+    <DadosDaFomeStyle>
       <div className="row">
         <p className="titulo">
           {titulo}
@@ -175,8 +175,8 @@ function Pagina2() {
         </SectionColapsible>
         </div>          
       </div>
-    </Pagina2Style>
+    </DadosDaFomeStyle>
   )
 }
 
-export default Pagina2
+export default DadosDaFome
