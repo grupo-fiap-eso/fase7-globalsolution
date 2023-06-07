@@ -1,17 +1,11 @@
 import PostsResumo from "./posts/PostsResumo";
 import { CardsStyle } from "../styled";
-import Logo from "../images/logo2.png"
 import Sustentabilidade from "../images/sustentabilidade.png"
 import { StyleSecao } from "../styled";
 import ImgCentro from "../images/Aquaponia.jpg"
 import imgP1 from "../images/imgP1.png"
 import imgP2 from "../images/imgP2.png"
 import imgP3 from "../images/imgP3.png"
-
-const links = {
-    textDecoration: 'none',
-    color: '#fff'
-}
 
 const img = {
     background: 'no-repeat center center fixed',
