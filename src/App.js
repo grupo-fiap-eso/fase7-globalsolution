@@ -1,6 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from "./components/Home"
 import Menu from "./components/Menu"
+import Ods2 from "./components/Ods2"
 import PostPage from './components/PostPage'
 import InsegurancaAlimentar from './components/InsegurancaAlimentar'
 import Solucao from './components/Solucao'
@@ -19,6 +20,7 @@ function App(){
         <Route path="/inseguranca_alimentar" element={[<Menu/>, <InsegurancaAlimentar/>, <Footer/>]}/>
         <Route path="/nossa_solucao" element={[<Menu/>, <Solucao/>, <Footer/>]}/>
         <Route path="/fale-conosco" element={[<Menu/>, <FaleConosco/>, <Footer/>]}/>
+        <Route path="/Ods2" element={[<Menu/>, <Ods2/>, <Footer/>]}/>
       </Routes>
     </BrowserRouter>
   )

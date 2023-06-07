@@ -35,23 +35,91 @@ export const DivEtiquetas = styled.div`
 `
 
 export const PostStyle = styled.div`
-  
-.posts .secao-tres h2{
-  color: #283618;
-  padding-top: 18vh;
-  padding-bottom: 5vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  .posts .secao-tres h2{
+    color: #283618;
+    padding-top: 18vh;
+    padding-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.posts .paragrafo-superior{
-  padding-left: 20vh;
-  padding-bottom: 8vh ;
+  .posts .paragrafo-superior{
+    padding-left: 20vh;
+    padding-bottom: 8vh ;
+  }
+  .section-box-verde{
+    border: 1px solid rgb(40, 54, 24);
+    padding: 0;
+  }
 
-}
+  *{
+    margin: 55px 0px 8px;
+    text-align: center;
+    .titulo{
+        margin: 50px auto 8px;
+        text-align: center;
+        max-width: 1300px;
+    }
+    .subtitulo{
+      margin: 0px auto 10px;
+      text-align: center;
+      max-width: 60%;
+    }
+    .img-container{
+      max-width: 900px;
+      margin: 40px auto;
+      img {
+        width: inherit;
+      }
+    }
+  }
+  .post-content{
+    text-align: justify !important;
+    max-width: 900px;
+    margin: 40px auto;
+    p, ol, li{
+      text-indent: 3em;
+      text-align: justify;
+      margin: 15px auto 0px;
+    }
+  }
+
+  .fase{
+    padding-left: 10px;
+    color: white;
+    margin-top: 0;
+    h2{
+      margin-top: 0;
+    }
+  }
+
+  .fase1{
+    background-color: rgb(255, 163, 114);
+  }
+
+  .fase2{
+    background-color: rgb(255, 108, 62);
+  }
+
+  .fase3{
+    background-color: rgb(255, 0, 0);
+  }
+
+  .fase4{
+    background-color: rgb(189, 0, 3);
+  }
+
+  .fase5{
+    background-color: rgb(127, 0, 0);
+  }
+
+  a.fale-conosco{
+    color: rgba(40,55,24,0.69);
+    text-decoration: none;
+  }
 `
 export const CardsStyle = styled.div`
 
