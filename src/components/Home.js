@@ -82,37 +82,6 @@ function Home() {
         </section>
         </CardsStyle>
 
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <img src={Logo} alt="logo" class="logo-footer" />
-                    <div class="icons-footer">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-solid fa-envelope"></i>
-
-                    </div>
-
-                </div>
-                <div class="col">
-                <h4><a href="/home" style={links}>Home</a></h4>
-                        <ul>
-                            <li><a href="/home">Calendário Ambiental</a></li>
-                        </ul>
-
-                    </div>
-                    <div class="col">
-                        <h4><a>Cadastro</a></h4>
-                        <ul>
-                            <li><a href="/home">Sair</a></li>
-                        </ul>
-
-                    </div>
-
-            </div>
-        </footer>
-    
 </div>
     )
   }
