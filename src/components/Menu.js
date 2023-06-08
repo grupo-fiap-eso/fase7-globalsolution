@@ -19,6 +19,7 @@ function Menu() {
               <Link style={link} to='/inseguranca_alimentar'>Insegurança Alimentar</Link>
               <Link style={link} to="/ods2">Ods2</Link>
               <Link style={link} to='/nossa_solucao'>Nossa Solução</Link>
+              <Link style={link} to='/pitch'>Video Pitch</Link>
             </li>
           </ul>
         </nav>

@@ -24,6 +24,7 @@ function Footer(){
             <ul>
                 <li><a href="/dados-da-fome">Dados da Fome</a></li>
                 <li><a href="/inseguranca_alimentar">Insegurança Alimentar</a></li>
+                <li><a href="/ods2">Ods2</a></li>
                 <li><a href="/nossa_solucao">Nossa Solução</a></li>
             </ul>
 

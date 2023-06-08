@@ -7,6 +7,7 @@ import Solucao from './components/Solucao'
 import DadosDaFome from './components/DadosDaFome'
 import FaleConosco from './components/FaleConosco'
 import Footer from './components/Footer'
+import Pitch from './components/Pitch'
 
 function App(){
   return(
@@ -19,6 +20,7 @@ function App(){
         <Route path="/nossa_solucao" element={[<Menu/>, <Solucao/>, <Footer/>]}/>
         <Route path="/fale-conosco" element={[<Menu/>, <FaleConosco/>, <Footer/>]}/>
         <Route path="/Ods2" element={[<Menu/>, <Ods2/>, <Footer/>]}/>
+        <Route path="/pitch" element={[<Menu/>, <Pitch/>]}/>
       </Routes>
     </BrowserRouter>
   )

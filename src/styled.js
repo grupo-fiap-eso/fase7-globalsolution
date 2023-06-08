@@ -384,3 +384,6 @@ export const FaleConoscoStyle = styled.h1`
     font-size: 16px;
   }
 `;
+
+export const PitchStyled = styled.div`
+`;
