@@ -115,7 +115,7 @@ function InsegurancaAlimentar() {
                 </div>
               </div>
               <div style={{display: "flex", justifyContent: "space-between"}}>
-                <div class="card ">
+                <div class="card">
                   <img class="image" src={Guerra} alt="postimg" />
                   <p style={{
                     fontSize: "23px",
